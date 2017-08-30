@@ -15,7 +15,7 @@ class Login extends Controller{
             if($res){
                 $this->success('登录成功','index/index');exit;
             }else{
-                $this->error($res['msg']);exit;
+                $this->error("登录失败");exit;
             }
         }
         return $this->fetch();

@@ -17,6 +17,6 @@ return [
         ':id'   => ['index/hello', ['method' => 'get'], ['id' => '\d+']],
         ':name' => ['index/hello', ['method' => 'post']],
     ],
-    'admin_login'=>'admin/login/login',
-    'admin_index'=>'admin/index/index'
+//    'admin_login'=>'admin/login/login',
+//    'admin_index'=>'admin/index/index'
 ];
